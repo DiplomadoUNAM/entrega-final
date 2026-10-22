@@ -1,0 +1,35 @@
+# Variables y secretos
+/.env
+/Backend/.env
+/Backend/.env.backup
+/Backend/.env.production
+
+# Dependencias y compilaciones
+/Backend/vendor/
+/Backend/node_modules/
+/Frontend/node_modules/
+/Frontend/dist/
+/Frontend/dist-ssr/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Registros
+*.log
+
+# Archivos auxiliares de pruebas anteriores
+/Backend/index.html
+/Backend/src/
+/Backend/compose.yaml
+/Backend/compose.yaml.backup
+/Backend/.oxlintrc.json
+/Frontend/Dockerfile2
+/Frontend/entrypoint.sh
+
+# Metadatos de archivos descargados desde Windows
+*:Zone.Identifier
+/Backend/AGENTS.md
+/Backend/CLAUDE.md
